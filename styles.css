@@ -1,0 +1,37 @@
+/*custom fonts - Bitter, Montserrat*/
+@import url('http://fonts.googleapis.com/css?family=Montserrat|Bitter');
+/*basic reset*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Bitter, Helvetica;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #123456;
+}
+
+h1 {
+  font: normal 29px/29px Bitter;
+  text-align: center;
+  padding: 3px;
+}
+
+
+body {
+  /*overflow: hidden;*/
+}
+
+canvas {
+  border: 5px solid #333;
+  margin: 3px auto;
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
